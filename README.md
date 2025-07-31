@@ -1,4 +1,5 @@
-Image Description: Promotional Offer
+# Prescription Management System
+![Hero Section](./assets/hero.png)
 
 Background: The image features a flat lay of clothing and accessories.
 
