@@ -1,6 +1,10 @@
 # Aura Ecommerce Website
 ![Hero Section](public/hero.png)
 
+## 📱 Live Demo
+
+[Check out the Live Demo](https://aura-ecommerce-six.vercel.app/)
+
 Background: The image features a flat lay of clothing and accessories.
 
 Items Present:
