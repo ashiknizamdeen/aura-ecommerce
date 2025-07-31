@@ -1,5 +1,5 @@
-# Prescription Management System
-![Hero Section](./assets/hero.png)
+# AUra Ecommerce Website
+![Hero Section](/hero.png)
 
 Background: The image features a flat lay of clothing and accessories.
 
