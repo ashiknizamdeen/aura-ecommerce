@@ -1,0 +1,6 @@
+/* Main layout styles, if any specific to App.jsx */
+main {
+  min-height: 100vh; /* Ensure main content takes full height */
+  display: flex;
+  flex-direction: column;
+}

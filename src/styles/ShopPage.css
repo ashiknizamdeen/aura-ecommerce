@@ -1,0 +1,12 @@
+.shop-page {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.shop-page .section-title {
+  margin-bottom: 60px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 30px;
+}

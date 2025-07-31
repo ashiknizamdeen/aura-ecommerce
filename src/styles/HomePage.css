@@ -1,0 +1,120 @@
+/* HERO */
+.hero {
+  background-color: var(--bg-light-gray); /* Lighter background */
+  padding-block: 120px 75px;
+  position: relative;
+  overflow: hidden; /* Hide overflow from potential shapes */
+}
+
+.hero .container {
+  display: grid;
+  gap: 40px; /* Reduced gap */
+  align-items: center;
+}
+
+.hero-subtitle {
+  font-size: var(--fontSize-7); /* Smaller subtitle */
+  color: var(--text-accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-title { margin-block: 12px 25px; } /* Adjusted margins */
+
+.hero-text {
+  font-size: var(--fontSize-8);
+  line-height: 1.8;
+  margin-block-end: 20px;
+  color: var(--text-gray);
+}
+
+.hero-banner {
+  max-width: max-content;
+  margin-inline: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* PRODUCT & FEATURE SECTIONS */
+.product .section-title,
+.feature .section-title {
+  margin-block-end: 60px;
+}
+
+.product-list {
+  margin-block-end: 40px;
+}
+
+.product-card {
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+  box-shadow: var(--shadow-3);
+  transition: var(--transition-1);
+}
+
+.product-card:is(:hover, :focus-within) {
+  box-shadow: var(--shadow-2);
+  transform: translateY(-5px);
+}
+
+.product-card .card-banner {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.feature-list {
+  display: grid;
+  gap: 40px; /* Reduced gap */
+  margin-block-end: 60px;
+}
+
+.feature .btn { margin-inline: auto; }
+
+/* OFFER */
+.offer {
+  padding-block: 100px;
+  background-attachment: fixed; /* Parallax effect */
+}
+
+.offer-card {
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-2);
+  padding: 60px 30px; /* Adjusted padding */
+  text-align: center;
+}
+
+.offer-card .card-title {
+  font-size: var(--fontSize-1);
+  color: var(--text-accent);
+}
+
+.offer-card .card-text {
+  font-size: var(--fontSize-8);
+  line-height: 1.8;
+  margin-block: 15px 30px; /* Adjusted margins */
+  color: var(--text-gray);
+}
+
+/* Media Queries for HomePage */
+@media (min-width: 768px) {
+  .hero-title { margin-block: 16px 30px; }
+  .hero-text { --fontSize-8: 2rem; }
+  .hero .btn { margin-block-start: 50px; }
+}
+
+@media (min-width: 1200px) {
+  .hero { padding-block: 180px 120px; }
+  .hero .container {
+    grid-template-columns: 1.2fr 1fr; /* Adjusted column ratio */
+    gap: 80px;
+  }
+  .offer-card {
+    width: 50%; /* Wider card on desktop */
+    margin-inline: auto; /* Center the card */
+    padding: 80px 50px;
+
+  }
+}
