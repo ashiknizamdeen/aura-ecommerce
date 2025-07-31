@@ -1,4 +1,4 @@
-# AUra Ecommerce Website
+# Aura Ecommerce Website
 ![Hero Section](public/hero.png)
 
 Background: The image features a flat lay of clothing and accessories.
